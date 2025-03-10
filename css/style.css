@@ -30,6 +30,9 @@ header h1 {
     padding: 15px 0;
     color: #04261f;
 }
+header{
+    background-color: #fd7b10;
+}
 header ul {
     float: right;
 }
@@ -41,11 +44,11 @@ header ul li a{
     display: inline-block;
 }
 header ul li a:hover {
-    background-color: #fd7b10;
+    background-color: #000000;
     color: #fff;
 }
 .active {
-    background-color: #de8715;
+    background-color: #fd7b10;
     color: #0c0303;
 }
 .benner {
@@ -86,18 +89,26 @@ section h3 {
 }
 .profile {
     padding-bottom: 100px;
+    background-color: #000000;
+}
+.profile h3 {
+    color: #fff;
 }
 .profile p {
-    color: #020000;
+    color: #f2f1f1;
     word-spacing: 3px;
     margin: 20px;
     text-align: center;
 }
 .about {
     padding-bottom: 100px;
+    background-color: #020000;
+}
+.about h3 {
+    color: #fff;
 }
 .about p {
-    color: #04221c;
+    color: #ffffff;
     word-spacing: 2px;
     line-height: 25px;
     margin: 20px;
